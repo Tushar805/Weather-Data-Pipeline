@@ -1,4 +1,4 @@
-# 🌦️ Weather Data Engineering Pipeline on Azure
+# 🌦️ End-to-End Weather Data Pipeline | Azure · Databricks · Airflow
 
 An end-to-end **production-style data engineering project** built using Azure cloud services, Databricks, Delta Lake, and Apache Airflow.
 
@@ -56,26 +56,6 @@ Monitoring & Email Alerts
 | Docker | Local Airflow setup |
 | Azure Monitor | Failure alerts |
 | Open-Meteo API | Weather data source |
-
----
-
-# 📂 Medallion Architecture
-
-## 🥉 Bronze Layer
-- Raw JSON API data
-- Immutable source of truth
-- Partitioned by ingestion date & city
-
-## 🥈 Silver Layer
-- Cleaned & validated data
-- Exploded hourly weather rows
-- Deduplication & DQ checks
-- Delta tables
-
-## 🥇 Gold Layer
-- Analytics-ready star schema
-- Fact & dimension tables
-- Optimized for reporting/query performance
 
 ---
 
