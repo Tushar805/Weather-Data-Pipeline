@@ -85,7 +85,7 @@ Monitoring & Email Alerts
 # 📁 Project Structure
 
 ```bash
-End-to-End Weather Data Pipeline | Azure · Databricks · Airflow/
+Weather-Data-Pipeline/
 │
 ├── dags/
 │   ├── utils/
