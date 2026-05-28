@@ -106,9 +106,9 @@ weather-pipeline-project/
 │       ├── watermark.json
 │       └── locations.json
 │
-├── logs/
+├── Screenshots/
 │
-└── docker-compose.yml
+└── ARM Template/
 ```
 
 ---
